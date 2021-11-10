@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>타이포그래피 속성 - font</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+    <!-- 
+        스타일 지정 방식
+        1. 인라인 방식
+        2. 내부 스타일 시트
+        3. 외부 스타일 시트
+     -->
+     <style>
+         p.a {
+            font-family: 'Roboto Mono', monospace;
+            font-style: oblique;
+         }
+
+         p.b {
+            font-family: 'Mochiy Pop P One', sans-serif;
+            font-size: 20px;
+            line-height: 3;
+            font-weight: bolder;
+         }
+
+         p.c {
+             font-variant: small-caps;
+         }
+
+         p.d {
+             font: italic small-caps bold 12px/30px 
+         }
+     </style>
+</head>
+<body>
+    <h1>Lorem Ipsum</h1>
+
+    <p class="a">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+    <p class="b">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
+    <!-- alt + shift + ↓ : 한 줄 복사 -->
+
+    <p class="c">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
+
+    <p class="d">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
+
+</body>
+</html>

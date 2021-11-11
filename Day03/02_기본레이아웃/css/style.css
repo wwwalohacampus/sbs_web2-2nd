@@ -1,0 +1,63 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Noto+Sans+KR&display=swap');
+
+/*reset*/
+* {margin: 0;padding: 0;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;}
+a {color: inherit; text-decoration: inherit;}
+li {list-style: none;}
+img {vertical-align: middle;}
+
+
+/* layout */
+.font { font-family: 'Nanum Myeongjo', serif; }
+body { font-family: 'Noto Sans KR', sans-serif; font-size: 16px; color: #7e7e72; }
+.wrap { width: 100%; margin: 0 auto; overflow: hidden; }
+
+/* nav */
+nav {
+    position: relative;
+    overflow: hidden;
+    background-color: #c59f8b;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 53px;
+    z-index: 1;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* section.visual */
+section.visual { width: 100%; position: relative; margin-top: 53px;}
+section.visual img { width: 100%; }
+section.visual .mainTitle { 
+    position: absolute; 
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+}
+section.visual .mainTitle h2 { font-size: 68px; letter-spacing: -3px; text-transform: uppercase; margin-bottom: 10px;}
+section.visual .mainTitle h2 span { font-size: 50px; color: #FF7777; } 
+section.visual .mainTitle p { font-size: 19px; color: #f9f9f9;}
+
+
+
+
+
+

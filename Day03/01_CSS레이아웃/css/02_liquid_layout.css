@@ -1,0 +1,35 @@
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav, section {
+    float: left;
+}
+
+footer { clear: both; }
+
+nav { 
+    width: 20%;
+    margin-right: 1.5%;
+}
+
+section {
+    width: 78%;
+}
+
+* { box-sizing: border-box; }
+
+body {
+    text-align: center;
+}
+
+header, nav, section, footer {
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+header, footer { padding: 20px 0;}
+nav, section { padding: 200px 0;}

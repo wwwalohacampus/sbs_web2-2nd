@@ -1,0 +1,44 @@
+
+.wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+/* 태블릿 모드 - 800px */
+@media screen and (min-width: 800px) {
+    .wrapper { max-width: 90%; }
+
+    header, footer { width: 100%; }
+
+    nav, section { float: left; }
+
+    nav { width: 20%; margin-right: 1.5%; }
+
+    section { width: 78%;}
+    
+    footer { clear: both; }
+}
+
+/* PC 모드 - 1000px */
+@media screen and (min-width: 1000px) {
+
+    .wrapper { width: 66.666%; }
+
+}
+
+
+* { box-sizing: border-box; }
+
+body {
+    text-align: center;
+}
+
+header, nav, section, footer {
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+header, footer { padding: 20px 0;}
+nav, section { padding: 200px 0;}

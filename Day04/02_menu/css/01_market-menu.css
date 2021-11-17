@@ -59,6 +59,7 @@ header { margin-bottom: 20px; }
     padding: 4px 9px;
     border: 1px solid #ddd;
     background-color: #fff;
+    z-index: 1001;
 }
 
 /* 고객센터 메뉴에 마우스 올렸을 때 */

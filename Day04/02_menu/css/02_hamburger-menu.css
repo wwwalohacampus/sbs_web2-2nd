@@ -1,0 +1,54 @@
+
+/*
+.wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+*/
+
+.wrap {
+    display: flex;
+    /* flex 로 정가운데 배치 */
+    /* 주축 기준으로 가운데 */
+    justify-content: center;
+    /* 교차축 기준으로 가운데 */
+    align-items: center;
+    height: 100vh;
+}
+
+ul {
+    height: 70px;
+    width: 100px;
+    /* border: 1px solid hotpink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+}
+
+ul li {
+    width: 100%;
+    height: 1px;
+    background: #000;
+    list-style-type: none;
+    transition: all 0.5s ease-out;
+}
+
+ul:hover {
+    height: 100px;
+    transform: rotate(90deg);
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+ul:hover li { transform-origin: left;}
+
+ul:hover li:nth-child(1) { transform: rotate(45deg) translateY(18px);}
+ul:hover li:nth-child(2) { opacity: 0; ;}
+ul:hover li:nth-child(3) { transform: rotate(-45deg) translateY(-18px);}
+

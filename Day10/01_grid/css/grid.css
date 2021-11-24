@@ -108,7 +108,7 @@
 .align-stretch { align-content: stretch; }
 
 
-/* align-content */
+/* justify-content */
 .justify { height: 1000px; grid-auto-flow: column; }
 .justify-start { justify-content: start; }
 .justify-end { justify-content: end; }

@@ -3,7 +3,7 @@
 /* 공통 */
 html { font-size: 100%; }
 
-body { font-family: "나눔고딕", NanumGothic, "맑은고딕", MalgunGothic, "Apple SD Gothic Neo", sans-serif; }
+body { font-family: 'Noto Sans KR', sans-serif; }
 
 /* a태그 밑줄제거 */
 a { text-decoration: none; }
@@ -148,15 +148,10 @@ footer p {
     /* HEADER */
     .main-nav {
         font-size: 1rem;
-        margin-top: 10px;
+        margin-top: 30px;
     }
     .main-nav li {
         margin: 0 20px;
-    }
-
-    /* HOME */
-    .home-content {
-        margin-top: 20%;
     }
 
     /* blog */
@@ -164,7 +159,7 @@ footer p {
         flex-direction: column;
     }
     #blog .page-title {
-        margin-top: 30px;
+        margin-top: 60px;
     }
     article,
     aside {
@@ -197,10 +192,6 @@ footer p {
     .post-cate {
         margin-left: 80px;
     }
-
-   
-   
-   
     
 }
 

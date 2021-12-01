@@ -48,7 +48,7 @@ ul:hover {
 
 ul:hover li { transform-origin: left;}
 
-ul:hover li:nth-child(1) { transform: rotate(45deg) translateY(18px);}
+ul:hover li:nth-child(1) { transform: rotate(45deg) translateY(20px);}
 ul:hover li:nth-child(2) { opacity: 0; ;}
-ul:hover li:nth-child(3) { transform: rotate(-45deg) translateY(-18px);}
+ul:hover li:nth-child(3) { transform: rotate(-45deg) translateY(-20px);}
 

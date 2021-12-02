@@ -222,7 +222,7 @@ footer .fnb ul li:first-child:before { content: ''; border: 1px solid #eee;  }
 footer .fnb ul li::after{ content: ''; height: 3px; border: 1px solid #eee; } 
 footer .box { display: flex; justify-content: space-around; margin: 0 auto; width: 90%; height: 300px; border: 1px solid brown; }
 footer .box .col { width: 33%; height: 100%; border: 1px solid firebrick;  }
-
+footer .box .col ul { height: 100%; }
 
 
 

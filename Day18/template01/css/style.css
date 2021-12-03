@@ -219,8 +219,8 @@ footer .fnb { height: 100px; border: 1px solid black;}
 footer .fnb ul li { font-size: 0.8rem; }
 footer .fnb ul li a { margin: 0 20px;  }
 footer .fnb ul li:first-child:before { content: ''; border: 1px solid #eee;  }
-footer .fnb ul li::after{ content: ''; height: 3px; border: 1px solid #eee; } 
-footer .box { display: flex; justify-content: space-around; margin: 0 auto; width: 90%; height: 300px; border: 1px solid brown; }
+footer .fnb ul li::after{ content: ''; border: 1px solid #eee; } 
+footer .box { margin: 0 auto; width: 90%; height: 300px; border: 1px solid brown; }
 footer .box .col { width: 33%; height: 100%; border: 1px solid firebrick;  }
 footer .box .col ul { height: 100%; }
 
@@ -256,7 +256,7 @@ footer .box .col ul { height: 100%; }
     .mobile { display: block; }
     
     /*  */
-    .header .info { height: 50px; }
+    .header .info { height: 50px; padding-left: 10px; }
 
 
     /* 메인 타이틀, 메인 이미지 */

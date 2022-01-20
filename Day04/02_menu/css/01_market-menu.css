@@ -245,7 +245,7 @@ header { margin-bottom: 20px; }
 }
 #gnb .gnb_sub .inner_sub ul.gnb_menu li {
     width: 100%;
-    text-align-last: left;
+    text-align: left;
 }
 #gnb .gnb_sub .inner_sub ul.gnb_menu li a.menu {
     display: block;
